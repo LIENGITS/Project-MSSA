@@ -5,12 +5,12 @@ The project data will consist of all information that to build a robust database
 
 The user interface would be a graphical one, so that a regular person can figure out quite easily and be able to input information and manager their business. This app will be highly customizable which client can go in and update or change their data and setting to better secure and manage.
 
-#Table of Content 
-1. Project Information
-2.Entity Relationship Diagram
-3.Project Data
-4.Building the Database(SQL&Queries)
-5.Website Wire Frames
-6.Requirements & Use Case 
-7.Test Plan & RTM
-8.Prototype
+Table of Content<br/>
+1.Project Information<br/>
+2.Entity Relationship Diagram<br/>
+3.Project Data<br/>
+4.Building the Database(SQL&Queries)<br/>
+5.Website Wire Frames<br/>
+6.Requirements & Use Case<br/>
+7.Test Plan & RTM<br/>
+8.Prototype<br/>
