@@ -5,101 +5,116 @@
 Use ProjectMssa;
 
 --Business Owner Table
-drop table BusinessOwner
-create table BusinessOwner(
-OwnerId int unique not null  identity(1,1),
-UserId int not null,
-Companyname varchar(50),
-Companyphone varchar(15),
-Companyemail varchar(50),
-Companytype varchar(30),
-Companystreet varchar(50),
-Companycity varchar(50),
-Companyregion varchar(50),
-Companyzip varchar(10),
-PRIMARY KEY (OwnerId)
- 
- );
+CREATE TABLE [dbo].[BusinessOwner](
+	[OwnerId] [int] IDENTITY(1,1) NOT NULL,
+	[FirstName] [varchar](50) NULL,
+	[LastName] [varchar](50) NULL,
+	[Companyname] [varchar](50) NULL,
+	[Companyphone] [varchar](15) NULL,
+	[Companyemail] [varchar](50) NULL,
+	[Companytype] [varchar](30) NULL,
+	[Companystreet] [varchar](50) NULL,
+	[Companycity] [varchar](50) NULL,
+	[Companyregion] [varchar](50) NULL,
+	[Companyzip] [varchar](10) NULL,
+	[UserID] [int] NOT NULL,
+	[InvoiceID] [int] NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[OwnerId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
 
  --AppUser Table
- drop table _Application
-  create table _Application(
- UserId int unique not null identity(1,1),
- Username varchar(25),
- Useremail varchar(50),
- Userpassword varchar(50),
- Firstname varchar(30),
- Lastname varchar(30),
- NewFolder varchar(30),
- Projects varchar(30),
- InvoiceHistory varchar(25),
- PRIMARY KEY (UserId)
-
- );
+ CREATE TABLE [dbo].[Application](
+	[UserId] [int] IDENTITY(1,1) NOT NULL,
+	[Username] [varchar](25) NULL,
+	[Useremail] [varchar](50) NULL,
+	[Userpassword] [varchar](50) NULL,
+	[Firstname] [varchar](30) NULL,
+	[Lastname] [varchar](30) NULL,
+	[NewFolder] [varchar](30) NULL,
+	[Projects] [varchar](30) NULL,
+	[InvoiceHistory] [varchar](25) NULL,
+	[ProjectId] [int] NULL,
+	[InvoiceId] [int] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[UserId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
 
  -- Customers Table
- drop table Customers
-   create table Customers(
- CustomerId int unique not null identity(1,1),
- Firstname varchar(30),
- Lastname varchar(30),
- Customeremail varchar(50),
- Customerphone varchar(15),
- PRIMARY KEY (CustomerId)
-
- );
+ CREATE TABLE [dbo].[Customers](
+	[CustomerId] [int] IDENTITY(1,1) NOT NULL,
+	[Firstname] [varchar](30) NULL,
+	[Lastname] [varchar](30) NULL,
+	[Customeremail] [varchar](50) NULL,
+	[Customerphone] [varchar](15) NULL,
+	[InvoiceID] [int] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[CustomerId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
 
  --Invoice Table
- drop table Invoice
-  create table Invoice(
- InvoiceId int not null,
- InvoiceDescription varchar(140) null,
- OwnerId int not null,
- UserId int not null,
- CustomerId int not null,
- PRIMARY KEY (InvoiceId),
-);
+ CREATE TABLE [dbo].[Invoice](
+	[InvoiceID] [int] NULL,
+	[OwnerID] [int] NULL,
+	[UserID] [int] NULL,
+	[CustomerID] [int] NULL,
+	[ProductID] [int] NULL,
+	[ProjectID] [int] NULL,
+	[ProjectTitle] [varchar](50) NULL,
+	[Quantity] [int] NULL,
+	[StarteDate] [date] NULL,
+	[CompletionDate] [date] NULL,
+	[Priceperitem] [int] NULL,
+	[ItemDescription] [varchar](50) NULL,
+	[ProjectDescription] [varchar](50) NULL,
+	[Subtotal] [int] NULL,
+	[Taxes] [int] NULL,
+	[Totalaftertax] [int] NULL
+) ON [PRIMARY]
+GO
 
-alter table Invoice add pId int not null
+ALTER TABLE [dbo].[Invoice]  WITH CHECK ADD  CONSTRAINT [FK_Invoice_CustomerId] FOREIGN KEY([CustomerID])
+REFERENCES [dbo].[Customers] ([CustomerId])
+GO
 
---Invoice Details Table
-drop table Invoice_Details
-create table Invoice_Details(
-rowId int not null,
-InvoiceId int not null,
-ProductId int not null,
-Quantity int
-PRIMARY KEY (RowId)
-
-
-);
 
 --Products Table
-drop table Products
-create table Products(
-ProductId int not null,
-ProductName varchar(25),
-ProductDescription varchar(25),
-ProductCategory varchar(25),
-Price money,
-PRIMARY KEY (ProductId),
-
-);
+CREATE TABLE [dbo].[Products](
+	[ProductId] [int] IDENTITY(1,1) NOT NULL,
+	[ProductName] [varchar](25) NULL,
+	[ProductType] [varchar](25) NULL,
+	[Price] [money] NULL,
+	[ProductDescription] [varchar](100) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[ProductId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
 
 --Projects Table
-drop table Projects
-create table Projects(
-pId int not null,
-UserId int not null,
-ProjectExpenses int, 
-ProjectNotes varchar(280),
-ProjectTitle varchar(25),
-StartDate date,
-EstCompletionDate date,
-ProjectDescription varchar(280),
-PRIMARY KEY (pId),
-
-);
+CREATE TABLE [dbo].[Projects](
+	[ProjectID] [int] IDENTITY(1,1) NOT NULL,
+	[ProjectTitle] [varchar](50) NULL,
+	[ProjectStartDate] [date] NULL,
+	[ProjectEndDate] [date] NULL,
+	[ProjectNotes] [varchar](200) NULL,
+	[PorjectExpenses] [int] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[ProjectID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
 
 select * from _Application;
 select * from BusinessOwner;
