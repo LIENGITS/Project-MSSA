@@ -67,7 +67,7 @@ Alternate Flow:
 
 
 
-Note:
+Requirement:
 
     User should be able to download application and create an account
 
