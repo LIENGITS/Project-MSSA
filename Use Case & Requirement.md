@@ -25,7 +25,7 @@ Use Case 2
 
     Name: Edit Account Info
 
-    Actors: Application users/ database
+    Actors: Application users/ database 
 
     Precondition: User wants to edit/ update account info
 
