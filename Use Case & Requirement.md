@@ -26,7 +26,7 @@ Use Case 2
     Name: Edit Account Info
 
     Actors: Application users/ database 
-
+ 
     Precondition: User wants to edit/ update account info
 
     Triggers: User realizes they entered information incorrectly. User wants to update info.
