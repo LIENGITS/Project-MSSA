@@ -245,18 +245,6 @@ Application should store customer info for quicker invoice creation for repeat c
 
 
 
-<p id="Prototype">8.Prototype:</p>
-
-
-
-
-
-
-
-
-
-
-
 
 
 
