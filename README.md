@@ -20,7 +20,7 @@ The user interface would be a graphical one, so that a regular person can figure
 
 
 <p id="Entity_Relationship"><h1>2.Entity Relationship Diagram:</h1></p>
-<img src="Website Wire Frames/ERD.png" width="500" >
+<img src="Website Wire Frames/ERD.png" width="700" >
 
 <p id="Project_Data"><h1>3.Project_Data:</h1></p>
 <img src="Website Wire Frames/Data.PNG" width="300" >
@@ -29,6 +29,209 @@ The user interface would be a graphical one, so that a regular person can figure
 I upload the file named SQL & Queries contains all of the queries that would create the necessary tables and datas. 
 It can be found <a href="https://github.com/z82206739/Project-MSSA/blob/master/3.Project.Sql">here.</a>
 
+<p id="Website_Wire_Frames"><h1>5.Website Wire Frames:</h1></p>
+<img src="Website Wire Frames/WireSignIn.PNG" width="750" >
+<img src="Website Wire Frames/MainPage.PNG" width="750" >
+
+<p id="Requirements_&_Use Case"><h1>6.Requirements & Use Case:</h1></p>
+Use Case 1
+
+Name: Create Account
+
+Actors: Business Owner/Product seller
+
+Precondition: Business Owner exists, application exists
+
+Triggers: User wants to create invoices for clients using a mobile application
+
+Use Case 2
+
+Name: Edit Account Info
+
+Actors: Application users/ database 
+
+Precondition: User wants to edit/ update account info
+
+Triggers: User realizes they entered information incorrectly. User wants to update info.
+
+Use Case 3
+
+Name: Create Invoice
+
+Actors: User / Customer / Database
+
+Preconditions: User has application
+
+Triggers: Owner sells to Customer and needs to create an invoice
+
+Requirement:
+
+User should be able to download application and create an account
+
+User should be able to create invoices through a functional GUI
+
+User should be able to make edits before finalizing their invoice.
+
+Application should store all invoices for reference.
+
+User should be able to make notes on existing projects.
+
+User should be able to track expenses and see profit based on the invoice total.
+
+User should be able to make updates to account info to include address changes, number changes, etc.
+
+Application should store customer info for quicker invoice creation for repeat customers.
+
+
+<p id="Test_Plan_&_RTM"><h1>7.Test Plan & RTM:</h1></p>
+</head>
+<body>
+
+<h2>Below are the requirements verification and and testing tables for this project.</h2>
+
+<table>
+  <tr>
+    <th>Requirement ID</th>
+    <th>Requirement Description</th>
+    <th>Verification Method</th>
+    <th>TestID</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>User should be able to download application and create an account</td>
+    <td>Demonstration</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>User should be able to create invoices through a functional GUI</td>
+    <td>Demonstration</td>
+    <td>12</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>User should be able to make edits before finalizing their invoice</td>
+    <td>Demonstration</td>
+    <td>11</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Application should store all invoices for reference</td>
+    <td>Demonstration</td>
+    <td>16</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>User should be able to make notes on existing projects</td>
+    <td>Demonstration</td>
+    <td>14</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>User should be able to track expenses and see profit based on the invoice total</td>
+    <td>Demonstration</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>User should be able to make updates to account info to include address changes</td>
+    <td>Demonstration</td>
+    <td>13</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Application should store customer info for quicker invoice creation for repeat customers</td>
+    <td>Demonstration</td>
+    <td>15</td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+<h2>Test Plan Table:</h2>
+
+<table>
+  <tr>
+    <th>Test ID</th>
+    <th>Requirement ID(S)</th>
+    <th>Test Procedure</th>
+    <th>Current Status</th>
+    <th>Last Time Tested</th>
+    <th>Build Version</th>
+  </tr>
+<tr>
+    <td>1</td>
+    <td>1</td>
+    <td>Security Test of the Account Creation Function</td>
+    <td>Not Tested</td>
+  <td></td>
+  <td></td>
+  </tr>
+<tr>
+    <td>2</td>
+    <td>1.1</td>
+    <td>Unit Test to ensure user can create invoices through a functional GUI</td>
+    <td>Not Tested</td>
+  <td></td>
+  <td></td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>1.1.1, 2.1</td>
+    <td>Unit Test to ensure user can make adjustments on the invoice</td>
+    <td>Not Tested</td>
+  <td></td>
+  <td></td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>1.2, 1.3</td>
+    <td>Unit Test to ensure all the adjustments can be properly stored</td>
+    <td>Not Tested</td>
+  <td></td>
+  <td></td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>1.3.3, 2.2</td>
+    <td>Unit Test to ensure users can store all the invoice</td>
+    <td>Not Tested</td>
+  <td></td>
+  <td></td>
+  </tr>
+    <tr>
+    <td>1</td>
+    <td>1.3, 1.2.3</td>
+    <td>Unit Test to verify the notes can be stored</td>
+    <td>Not Tested</td>
+  <td></td>
+  <td></td>
+  </tr>
+    <tr>
+    <td>1</td>
+    <td>1.3.1, 1.3.3.1</td>
+    <td>Unit Test to verify the expense and profit on the invoice</td>
+    <td>Not Tested</td>
+  <td></td>
+  <td></td>
+  </tr>
+    <tr>
+    <td>1</td>
+    <td>1.3.4, 1.3.3</td>
+    <td>Unit Test to ensure the user's email is a valid email</td>
+    <td>Not Tested</td>
+  <td></td>
+  <td></td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>1.3.3, 1.3.4</td>
+    <td>Unit Test to ensure the ability to create invoice according to the repeat customers</td>
+    <td>Not Tested</td>
+  <td></td>
+  <td></td>
+  </tr>
 
 
 
@@ -36,9 +239,12 @@ It can be found <a href="https://github.com/z82206739/Project-MSSA/blob/master/3
 
 
 
-<p id="Website_Wire_Frames">5.Website Wire Frames:</p>
-<p id="Requirements_&_Use Case">6.Requirements & Use Case:</p>
-<p id="Test_Plan_&_RTM">7.Test Plan & RTM:</p>
+
+
+
+
+
+
 <p id="Prototype">8.Prototype:</p>
 
 
