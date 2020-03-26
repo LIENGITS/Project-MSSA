@@ -1,5 +1,5 @@
 # Small Business Invoicing Application
-I will choose to create a small business invoicing application to create on-the-fly invoices that could be used by small business owners to generate professional invoices from their phones. It would have data entry points that were connected with a professional invoice template and as you enter data it would automatically start forming a .pdf that could be accessed at a later time.
+I will choose to create a small business invoicing application to create on-the-fly invoices that could be used by small business owners to generate professional invoices from the website. It would have data entry points that were connected with a professional invoice template and as you enter data it would automatically start forming a .pdf that could be accessed at a later time.
 
 <h1>Table of Content<br/></h1>
 <a href="#Project_Information">1.Project Information</a><br/>
