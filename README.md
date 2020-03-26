@@ -23,6 +23,10 @@ The user interface would be a graphical one, so that a regular person can figure
 <img src="Website Wire Frames/ERD.png" width="500" >
 
 <p id="Project_Data"><h1>3.Project_Data:</h1></p>
+<img src="Website Wire Frames/Data.PNG" width="500" >
+
+
+
 
 
 
