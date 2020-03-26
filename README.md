@@ -1,4 +1,4 @@
-# Project-MSSA-Small Business Invoicing Application
+# Small Business Invoicing Application
 I will choose to create a small business invoicing application to create on-the-fly invoices that could be used by small business owners to generate professional invoices from their phones. It would have data entry points that were connected with a professional invoice template and as you enter data it would automatically start forming a .pdf that could be accessed at a later time.
 
 The project data will consist of all information that to build a robust database. Data relating to the customers information will be categorized into different type, region, website, functionality, etc. Then the invoice will be created by the invoice generator from the stored data.
@@ -23,7 +23,6 @@ Table of Content<br/>
 
 <p id="Project_Information">1.Project Information:</p>
 <p>does anyone know how to change the color of the links?</p>
-  I use .toc_list but the color doesn’t change. It uses the same colour as my post links. They are bright red so I am trying to change them for the TOC only. Please help. I’m using WordPress.
 
 
 
