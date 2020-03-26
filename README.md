@@ -25,6 +25,9 @@ The user interface would be a graphical one, so that a regular person can figure
 <p id="Project_Data"><h1>3.Project_Data:</h1></p>
 <img src="Website Wire Frames/Data.PNG" width="300" >
 
+<p id="Building_the_Database(SQL&Queries)"><h1>4.Building the Database(SQL&Queries):</h1></p>
+I upload the file named SQL & Queries contains all of the queries that would create the necessary tables and datas. 
+It can be found <a href="https://github.com/z82206739/Project-MSSA/blob/master/3.Project.Sql">here.</a>
 
 
 
@@ -33,9 +36,6 @@ The user interface would be a graphical one, so that a regular person can figure
 
 
 
-
-
-<p id="Building_the_Database(SQL&Queries)">4.Building the Database(SQL&Queries):</p>
 <p id="Website_Wire_Frames">5.Website Wire Frames:</p>
 <p id="Requirements_&_Use Case">6.Requirements & Use Case:</p>
 <p id="Test_Plan_&_RTM">7.Test Plan & RTM:</p>
