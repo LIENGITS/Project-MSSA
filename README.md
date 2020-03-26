@@ -42,7 +42,7 @@ Actors: Business Owner/Product seller
 
 Precondition: Business Owner exists, application exists
 
-Triggers: User wants to create invoices for clients using a mobile application
+Triggers: User wants to create invoices for clients using a webpage application
 
 Use Case 2
 
