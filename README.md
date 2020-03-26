@@ -12,17 +12,18 @@ I will choose to create a small business invoicing application to create on-the-
 <a href="#Prototype">8.Prototype</a><br/>
 
 
-<h2><p id="Project_Information">1.Project Information:</p><br/></h2>
+<p id="Project_Information"><h1>1.Project Information:</h1></p><br/>
 
 The project data will consist of all information that to build a robust database. Data relating to the customers information will be categorized into different type, region, website, functionality, etc. Then the invoice will be created by the invoice generator from the stored data.<br/>
 The user interface would be a graphical one, so that a regular person can figure out quite easily and be able to input information and manager their business. This app will be highly customizable which client can go in and update or change their data and setting to better secure and manage.
 
 
 
-<p id="Entity_Relationship">2.Entity Relationship Diagram:</p>
+<p id="Entity_Relationship"><h1>2.Entity Relationship Diagram:</h1></p>
 <img src="Website Wire Frames/ERD.png" width="500" >
 
-<p id="Project_Data">3.Project_Data:</p>
+<p id="Project_Data"><h1>3.Project_Data:</h1></p>
+
 
 
 
