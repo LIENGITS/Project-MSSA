@@ -21,10 +21,6 @@ Table of Content<br/>
 
 
 
-<p id="Project_Information">1.Project Information:</p>
-<p>does anyone know how to change the color of the links?</p>
-
-
 
 
 
