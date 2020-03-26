@@ -66,7 +66,7 @@ Triggers: Owner sells to Customer and needs to create an invoice
 
 Requirement:
 
-User should be able to download application to desktop and create an account on the webpage.
+User should be able to create an account on the webpage.
 
 User should be able to create invoices through a functional GUI
 
@@ -98,7 +98,7 @@ Application should store customer info for quicker invoice creation for repeat c
   </tr>
   <tr>
     <td>1</td>
-    <td>User should be able to download application and create an account</td>
+    <td>User should be able to create an account</td>
     <td>Demonstration</td>
     <td>1</td>
   </tr>
