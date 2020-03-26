@@ -8,7 +8,7 @@ The user interface would be a graphical one, so that a regular person can figure
 
 Table of Content<br/>
 <a href="#Project_Information">1.Project Information</a>
-
+<a href="#Entity_Relationship">2.Entity Relationship Diagram</a>
 2.Entity Relationship Diagram<br/>
 3.Project Data<br/>
 4.Building the Database(SQL&Queries)<br/>
@@ -17,7 +17,8 @@ Table of Content<br/>
 7.Test Plan & RTM<br/>
 8.Prototype<br/>
 
-
+<p id="Entity_Relationship">2.Entity Relationship Diagram:</p>
+![](Website Wire Frames/ERD.png)
 
 
 
