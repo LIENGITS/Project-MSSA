@@ -232,6 +232,17 @@ Application should store customer info for quicker invoice creation for repeat c
   <td></td>
   <td></td>
   </tr>
+  </table>
+
+</body>
+</html>
+  
+  
+<p id="Prototype"><h1>8.Prototype:</h1></p>
+<img src="Website Wire Frames/PrototypeSignIn.PNG" width="750" >
+<img src="Website Wire Frames/PrototypeMain.PNG" width="750" >
+<img src="Website Wire Frames/PrototypeCustomer.PNG" width="750" >
+
 
 
 
