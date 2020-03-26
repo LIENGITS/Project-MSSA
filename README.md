@@ -7,6 +7,8 @@ The user interface would be a graphical one, so that a regular person can figure
 
 Table of Content<br/>
 1.Project Information<br/>
+<a href="#Project_Information">1.Project Information</a>
+
 2.Entity Relationship Diagram<br/>
 3.Project Data<br/>
 4.Building the Database(SQL&Queries)<br/>
@@ -14,3 +16,26 @@ Table of Content<br/>
 6.Requirements & Use Case<br/>
 7.Test Plan & RTM<br/>
 8.Prototype<br/>
+
+
+
+
+
+<p id="Project_Information">1.Project Information:</p>
+<p>does anyone know how to change the color of the links?</p>
+  I use .toc_list but the color doesn’t change. It uses the same colour as my post links. They are bright red so I am trying to change them for the TOC only. Please help. I’m using WordPress.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
