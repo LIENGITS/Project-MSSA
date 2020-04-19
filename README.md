@@ -249,13 +249,13 @@ Application should store customer info for quicker invoice creation for repeat c
 
 
 
-<p id="Prototype"><h1>9.New User Register</h1></p>
+<p id="New User Register"><h1>9.New User Register</h1></p>
 <img src="Website Wire Frames/USER.PNG" width="750" >
 
 
 
 
-<p id="Prototype"><h1>10.Initial Sprint Planning:</h1></p>
+<p id="Initial Sprint Planning"><h1>10.Initial Sprint Planning:</h1></p>
 This Sprint Plan is to deliberately plan all remaining requirements and tasks to prioritize them in order to ensure on-time completion. I will be utilizing style of sprint planning on a one-week timescale. Each week I will select the most important issues from the overall issues list and add them to the current week's sprint. The progress of each sprint will be tracked on a Kanban board in the Projects section.
 <img src="Website Wire Frames/Lists.PNG" width="750" >
 
