@@ -250,6 +250,7 @@ Application should store customer info for quicker invoice creation for repeat c
 
 
 <p id="Prototype"><h1>9.New User Register</h1></p>
+<img src="USER.PNG" width="750" >
 
 
 
