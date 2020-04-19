@@ -10,6 +10,7 @@ I will choose to create a small business invoicing application to create on-the-
 <a href="#Requirements_&_Use Case">6.Requirements & Use Case</a><br/>
 <a href="#Test_Plan_&_RTM">7.Test Plan & RTM</a><br/>
 <a href="#Prototype">8.Prototype</a><br/>
+<a href="#Prototype">9.Initial Sprint Planning</a><br/>
 
 
 <p id="Project_Information"><h1>1.Project Information:</h1></p><br/>
@@ -244,10 +245,8 @@ Application should store customer info for quicker invoice creation for repeat c
 <img src="Website Wire Frames/PrototypeCustomer.PNG" width="750" >
 
 
-
-
-
-
+<p id="Prototype"><h1>9.Initial Sprint Planning:</h1></p>
+This Sprint Plan is to deliberately plan all remaining requirements and tasks to prioritize them in order to ensure on-time completion. I will be utilizing style of sprint planning on a one-week timescale. Each week I will select the most important issues from the overall issues list and add them to the current week's sprint. The progress of each sprint will be tracked on a Kanban board in the Projects section.
 
 
 
