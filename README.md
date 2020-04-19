@@ -251,6 +251,9 @@ Application should store customer info for quicker invoice creation for repeat c
 
 <p id="New_User_Register"><h1>9.New User Register</h1></p>
 <img src="Website Wire Frames/USER.PNG" width="750" >
+<img src="Website Wire Frames/UserRegister.PNG" width="750" >
+
+
 
 
 
