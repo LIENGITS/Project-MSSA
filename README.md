@@ -10,8 +10,8 @@ I will choose to create a small business invoicing application to create on-the-
 <a href="#Requirements_&_Use Case">6.Requirements & Use Case</a><br/>
 <a href="#Test_Plan_&_RTM">7.Test Plan & RTM</a><br/>
 <a href="#Prototype">8.Prototype</a><br/>
-<a href="#Prototype">9.New User Register</a><br/>
-<a href="#Prototype">10.Initial Sprint Planning</a><br/>
+<a href="#New_User_Register">9.New User Register</a><br/>
+<a href="#Initial_Sprint_Planning">10.Initial Sprint Planning</a><br/>
 
 
 
