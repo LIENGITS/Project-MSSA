@@ -13,6 +13,8 @@ I will choose to create a small business invoicing application to create on-the-
 <a href="#New_User_Register">9.New User Register</a><br/>
 <a href="#Initial_Sprint_Planning">10.Initial Sprint Planning</a><br/>
 <a href="#User_Story_&_Acceptance_Criteria">11.User Story & Acceptance Criteria</a><br/>
+<a href="#Kanban_Board_&_Sprint_Review">12.Kanban Board & Sprint Review:</a><br/>
+
 
 
 
@@ -270,7 +272,11 @@ An example of each issue has a User Story that describes why the issue is import
 <img src="Website Wire Frames/NewIssue1.PNG" width="750" >
 
 
-
+<p id="Kanban_Board_&_Sprint_Review"><h1>12.Kanban Board & Sprint Review:</h1></p>
+    To Do: The overall list of tasks that must be complete at the end of the sprint
+    Work In Progress: Tasks currently being worked on 
+    Completed Work: Tasks that have been completed
+An example of how tasks flow through the sprint Kanban board is shown below: 
 
 
 
