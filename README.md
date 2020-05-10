@@ -264,9 +264,9 @@ This Sprint Plan is to deliberately plan all remaining requirements and tasks to
 <img src="Website Wire Frames/NewList.PNG" width="750" >
 
 
-<p id="User_Story_&_Acceptance_Criteria"><h1>10.User Story & Acceptance Criteria:</h1></p>
+<p id="User_Story_&_Acceptance_Criteria"><h1>11.User Story & Acceptance Criteria:</h1></p>
 An example of each issue has a User Story that describes why the issue is important and an Acceptance Criteria that must be met before completing/closing the issue. 
-
+<img src="Website Wire Frames/NewIssue.PNG" width="750" >
 
 
 
