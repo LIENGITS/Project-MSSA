@@ -20,7 +20,7 @@ I will choose to create a small business invoicing application to create on-the-
 
 
 
-<p id="Project_Information"><h1>1.Project Information:</h1></p><br/>
+<p id="Project_Information"><h1>1.Project Information:</h1></p><br/> 
 
 The project data will consist of all information that to build a robust database. Data relating to the customers information will be categorized into different type, region, website, functionality, etc. Then the invoice will be created by the invoice generator from the stored data.<br/>
 The user interface would be a graphical one, so that a regular person can figure out quite easily and be able to input information and manager their business. This app will be highly customizable which client can go in and update or change their data and setting to better secure and manage.
