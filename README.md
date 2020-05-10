@@ -14,6 +14,7 @@ I will choose to create a small business invoicing application to create on-the-
 <a href="#Initial_Sprint_Planning">10.Initial Sprint Planning</a><br/>
 <a href="#User_Story_&_Acceptance_Criteria">11.User Story & Acceptance Criteria</a><br/>
 <a href="#Kanban_Board_&_Sprint_Review">12.Kanban Board & Sprint Review:</a><br/>
+<a href="#Project_Work_Backlog">13.Project Work Backlog</a><br/>
 
 
 
@@ -281,7 +282,11 @@ An example of each issue has a User Story that describes why the issue is import
 An example of how tasks flow through the sprint Kanban board is shown below: 
 <img src="Website Wire Frames/Project1.PNG" width="750" >
 
-
- 
-
-
+<p id="Project_Work_Backlog"><h1>13.Project Work Backlog:</h1></p>
+Below is the list of items that I may not have chance to complete before the end of the MSSA Cohort, but which I will continue working on to minimize the number. 
+<ul style="list-style-type:square;">
+  <li>Create Customer Information Lookup Table</li>
+  <li>Finalize Site Theme / Style enhancement</li>
+  <li>Publish application on Mobile Device</li>
+   <li>Make customized edits before finalizing</li>
+</ul>
