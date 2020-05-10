@@ -290,3 +290,4 @@ Below is the list of items that I may not have chance to complete before the end
   <li>Publish application on Mobile Device</li>
    <li>Make customized edits before finalizing</li>
 </ul>
+ <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> 
