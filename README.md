@@ -273,11 +273,15 @@ An example of each issue has a User Story that describes why the issue is import
 
 
 <p id="Kanban_Board_&_Sprint_Review"><h1>12.Kanban Board & Sprint Review:</h1></p>
-    To Do: The overall list of tasks that must be complete at the end of the sprint
-    Work In Progress: Tasks currently being worked on 
-    Completed Work: Tasks that have been completed
+    <ul>
+  <li>To Do: The overall list of tasks that must be complete at the end of the sprint</li>
+  <li>Work In Progress: Tasks currently being worked on </li>
+  <li>Completed Work: Tasks that have been completed</li>
+</ul>    
 An example of how tasks flow through the sprint Kanban board is shown below: 
+<img src="Website Wire Frames/Project1.PNG" width="750" >
 
 
+ 
 
 
