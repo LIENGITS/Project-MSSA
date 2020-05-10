@@ -1,3 +1,4 @@
+<a name="top"></a>
 # Small Business Invoicing Application
 I will choose to create a small business invoicing application to create on-the-fly invoices that could be used by small business owners to generate professional invoices from the website. It would have data entry points that were connected with a professional invoice template and as you enter data it would automatically start forming a .pdf that could be accessed at a later time.
 
@@ -290,4 +291,4 @@ Below is the list of items that I may not have chance to complete before the end
   <li>Publish application on Mobile Device</li>
    <li>Make customized edits before finalizing</li>
 </ul>
- <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button> 
+<a href="#top">Back to top</a>
