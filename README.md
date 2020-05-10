@@ -12,6 +12,7 @@ I will choose to create a small business invoicing application to create on-the-
 <a href="#Prototype">8.Prototype</a><br/>
 <a href="#New_User_Register">9.New User Register</a><br/>
 <a href="#Initial_Sprint_Planning">10.Initial Sprint Planning</a><br/>
+<a href="#User_Story_&_Acceptance_Criteria">11.User Story & Acceptance Criteria</a><br/>
 
 
 
@@ -263,9 +264,8 @@ This Sprint Plan is to deliberately plan all remaining requirements and tasks to
 <img src="Website Wire Frames/NewList.PNG" width="750" >
 
 
-
-
-
+<p id="User_Story_&_Acceptance_Criteria"><h1>10.User Story & Acceptance Criteria:</h1></p>
+An example of each issue has a User Story that describes why the issue is important and an Acceptance Criteria that must be met before completing/closing the issue. 
 
 
 
